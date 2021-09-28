@@ -1,0 +1,168 @@
+.book-img {
+  display: block;
+  width: 110px;
+  margin: 1rem auto 0;
+}
+
+.motto h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.intro img {
+  width: 100%;
+}
+
+#home {
+  background-color: #0e84fa;
+  z-index: -1;
+}
+
+#home .container-fluid {
+  padding: 7% 10% 3%;
+}
+
+#deals {
+  background-color: #f8f7f7;
+}
+
+#deals .container-fluid {
+  padding: 3% 10%;
+}
+
+.products {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.products .col-md-2 {
+  text-align: center;
+}
+
+.products .col-md-2 a {
+  text-decoration: none;
+  color: #000;
+}
+
+#products {
+  background-color: #f8f7f7;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+#sales {
+  background-color: #f8f7f7;
+}
+
+#sales .container-fluid {
+  padding: 5% 4% 6%;
+}
+
+.grid {
+  background-color: #fff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 1.45rem;
+  padding: 2rem;
+  height: auto;
+}
+
+.grid h2 {
+  grid-column: span 2;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.img {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.single-grid {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.single-grid h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#games {
+  text-align: center;
+  background-color: #f8f7f7;
+}
+
+#games .container-fluid {
+  padding: 3% 8%;
+}
+
+#games img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#games .row {
+  background-color: #fff;
+}
+
+#games h5 {
+  margin: 2rem 0 1rem;
+  font-size: 1.1rem;
+}
+
+#games button {
+  padding: 0.4rem 1.2rem;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+@media (max-width: 992px) {
+  .center-btn {
+    text-align: center;
+  }
+  .book-img {
+    display: inline-block;
+    margin: 0;
+  }
+  .motto h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .carousel-item img {
+    min-height: 22vh;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+}
+
+@media (max-width: 480px) {
+  .motto h1 {
+    font-size: 2.2rem;
+  }
+  .center-btn button {
+    display: block;
+    margin: 1rem auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
